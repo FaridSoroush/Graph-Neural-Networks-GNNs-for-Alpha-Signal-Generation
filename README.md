@@ -2,7 +2,7 @@
 
 This project demonstrates the use of **Graph Neural Networks (GNNs)** to uncover structured "alpha" signals in a synthetic stock correlation graph. Nodes represent individual stocks, and edges simulate relationships (e.g., correlations). Labels are assigned using a rule-based structural condition, and a GCN is trained to infer these labels despite noisy input features.
 
-The experiment shows how graph-based learning can outperform traditional models when the signal is embedded in relational patterns rather than individual node features.
+The experiment shows how graph-based learning can outperform traditional models when the signal is embedded in relational patterns rather than individual node features. After training, the model achieves accuracy of 66.67%. This is above the 50% random baseline, demonstrating the GCN’s ability to learn from the structure of the graph rather than from individual node features. Figure below visualizes the GCN predictions on the graph:
 
 ![Prediction Visualization](gcn_predictions.png)
 
@@ -28,12 +28,6 @@ pip install torch torchvision torchaudio torch-geometric networkx matplotlib sci
 A full write-up of this project is available on Medium:
 
 **[Graph Neural Networks (GNNs) for Alpha Signal Generation](https://medium.com/@soroushfarid/graph-neural-networks-gnns-for-alpha-signal-generation-28e056d76323)**
-
-## Repository Structure
-
-- `main.ipynb`: Full training, evaluation, and visualization code
-- `assets/`: Contains the GCN prediction plot used in the README
-- `README.md`: Project documentation
 
 ## Contributing
 
