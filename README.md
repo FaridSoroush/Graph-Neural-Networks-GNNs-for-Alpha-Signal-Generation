@@ -4,7 +4,7 @@ This project demonstrates the use of **Graph Neural Networks (GNNs)** to uncover
 
 The experiment shows how graph-based learning can outperform traditional models when the signal is embedded in relational patterns rather than individual node features.
 
-![Prediction Visualization](assets/gcn_predictions.png)
+![Prediction Visualization](gcn_predictions.png)
 
 ## Features
 
